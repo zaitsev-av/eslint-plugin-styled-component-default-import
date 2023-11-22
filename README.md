@@ -1,4 +1,4 @@
-# eslint-plugin-110515
+# eslint-plugin-no-default-import
 
 custom eslint rules
 
@@ -10,7 +10,7 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-110515`:
+Next, install `eslint-plugin-no-default-import`:
 
 ```sh
 npm install eslint-plugin-110515 --save-dev
@@ -23,7 +23,7 @@ Add `110515` to the plugins section of your `.eslintrc` configuration file. You 
 ```json
 {
     "plugins": [
-        "110515"
+        "@zaitsev_av/eslint-plugin-no-default-import"
     ]
 }
 ```
@@ -34,7 +34,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "110515/rule-name": 2
+        "@zaitsev_av/eslint-plugin-no-default-import/rule-name": 2
     }
 }
 ```
